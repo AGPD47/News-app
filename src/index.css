@@ -1,3 +1,14 @@
-li div{
-    cursor: pointer;
+li div {
+  cursor: pointer;
+}
+.card {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  margin: 10px;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
 }
